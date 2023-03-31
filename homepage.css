@@ -1,0 +1,125 @@
+.background{
+    width: 100%;
+    height: 635%;
+    background-image: url("img2.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    z-index: -1;
+    -webkit-filter: opacity(60%);
+    filter: opacity(60%);
+}
+.header{
+    padding: 100px;
+    text-align: center;
+    font-family: "Times New Roman";
+    font-size: 30px;
+}
+.topnav{
+    overflow: hidden;
+    background-color: #EEEEEE;
+    -webkit-filter: opacity(70%);
+    filter: opacity(70%);
+}
+.topnav a{
+    float: left;
+    color: #100f0a;
+    text-align: center;
+    position: relative;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: auto 0;
+    font-size: 20px;
+}
+.topnav a:hover{
+    background-color: #a2c8d6;
+    color: #100f0a;
+}
+.topnav ul{
+    position: relative;
+    left: 50%;
+    text-align: center;
+    font-family: "Times New Roman";
+}
+.topnav li{
+    position: relative;
+    right: 50%;
+    padding: 10px;
+    display: inline-block;
+}
+@media screen and (max-width: 1200px){
+    .border{
+        width: 100%;
+    }
+}
+.border1,.border3,.border5,.border7{
+    width: 70%;
+    height: 350px;
+    margin: 15%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 5px 15px 10px;
+    text-align: center;
+    border-style: solid;
+    border-color: #a2c8d6;
+    font-family: "Times New Roman";
+    background-color: #EEEEEE;
+    -webkit-filter: opacity(80%);
+    filter: opacity(80%);
+}
+.border2{
+    width: 70%;
+    height: 700px;
+    margin: 15%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 5px 15px 10px;
+    text-align: center;
+    font-family: "Times New Roman";
+    border-style: solid;
+    border-color: #a2c8d6;
+    background-image: url("img5.jpg");
+    background-size: cover;
+}
+.border4 {
+    width: 70%;
+    height: 1100px;
+    margin: 15%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 5px 15px 10px;
+    text-align: center;
+    font-family: "Times New Roman";
+    border-style: solid;
+    border-color: #a2c8d6;
+    background-image: url(img10.jpg);
+    background-size: cover;
+}
+.border6,.border7{
+    width: 70%;
+    height: 450px;
+    margin: 15%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 5px 15px 10px;
+    text-align: center;
+    border-style: solid;
+    border-color: #a2c8d6;
+    font-family: "Times New Roman";
+    background-color: #EEEEEE;
+    -webkit-filter: opacity(80%);
+    filter: opacity(80%);
+}
+.footer {
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+    font-family: "Times New Roman";
+    background-color: #EEEEEE;
+    -webkit-filter: opacity(70%);
+    filter: opacity(70%);
+}

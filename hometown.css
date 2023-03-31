@@ -1,0 +1,107 @@
+.background{
+    width: 100%;
+    height: 380%;
+    background-image: url("img2.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    z-index: -1;
+    -webkit-filter: opacity(40%);
+    filter: opacity(40%);
+}
+.header{
+    padding: 100px;
+    text-align: center;
+    font-family: "Times New Roman";
+    font-size: 30px;
+}
+.topnav{
+    overflow: hidden;
+    background-color: #EEEEEE;
+    -webkit-filter: opacity(70%);
+    filter: opacity(70%);
+}
+.topnav a{
+    float: left;
+    color: #100f0a;
+    text-align: center;
+    position: relative;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: auto 0;
+    font-size: 20px;
+}
+.border{
+    width: 70%;
+    height: 100px;
+    margin: 15%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 5px 15px 10px;
+    text-align: center;
+    border-style: solid;
+    border-color: #a2c8d6;
+    font-family: "Times New Roman";
+    background-color: #EEEEEE;
+    -webkit-filter: opacity(80%);
+    filter: opacity(80%);
+}
+.minzu{
+    width: 1000px;
+    margin: 50px auto;
+    border: solid 1px #a2c8d6;
+    overflow: hidden;
+}
+.zhuangzu{
+    width: 300px;
+    float: right;
+}
+.zhuangzu img{
+    display: block;
+    width: 100%;
+    margin: 10px;
+}
+.introduction{
+    width: 1000px;
+    margin: 50px auto;
+    border: solid 1px #a2c8d6;
+    overflow: hidden;
+}
+.sightseeing{
+    width: 300px;
+    float: left;
+}
+.sightseeing img{
+    display: block;
+    width: 100%;
+    margin: 10px;
+}
+.write{
+    float: right;
+    width: 600px;
+    margin-right: 15px;
+}
+.food{
+    width: 300px;
+    float: right;
+}
+.food img{
+    display: block;
+    width: 100%;
+    margin: 10px;
+}
+.haochi img{
+    width: 300px;
+    height: 175px;
+    float: bottom;
+    margin: 10px;
+}
+.delicious{
+    float: left;
+    width: 650px;
+    margin-left: 15px;
+}
